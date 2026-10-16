@@ -41,7 +41,10 @@
         "format-check": "php-cs-fixer fix --dry-run --diff",
         "analyse": "phpstan analyse --no-progress --memory-limit=1G",
         "test": "phpunit --testsuite unit",
-        "e2e": "tests/e2e/run.sh",
+        "e2e": [
+            "Composer\\Config::disableProcessTimeout",
+            "tests/e2e/run.sh"
+        ],
         "check": [
             "@lint",
             "@format-check",
