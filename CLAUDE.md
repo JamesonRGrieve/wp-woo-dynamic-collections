@@ -1,7 +1,7 @@
 # wp-woo-dynamic-collections — Agent Operating Guide
 
 AGPL-3.0-or-later WordPress plugin (requires WooCommerce): Shopify-style rule-based product categories.
-README.md is the contract. PHP rules: `/home/jameson/Source/ai-prompts/php.md`.
+README.md is the contract. PHP rules: SOP *Stack Standards → PHP*.
 
 ## Layout
 
